@@ -1,0 +1,88 @@
+---
+title: "Bike share case study"
+author: "Utkarsh Goswami"
+date: "27/02/2022"
+output: html_document
+---
+
+## Case Study: How does a bike-share navigate speedy success?
+
+### Introduction
+In this case study we will work for a fictional company, Cyclistic, and meet different characters and team members. In order to answer the key business questions, we will follow the steps learned in the Google data analytics course: ask, prepare, process, analyze, share and act.
+
+The data has been made available by Motivate International Inc under this [license](https://ride.divvybikes.com/data-license-agreement)
+
+A brief explanation of the APPASA:-
+
+##### **Ask**
+1. Ask effective questions
+2. Define the scope of the analysis
+3. Use structured thinking
+4. Define what success look like
+
+##### **Prepare**
+1. Verify data's integrity, credibility and reliability
+2. Identify and use different data formats, types and structures
+3. Check data for bias
+4. Organize and protect data
+
+##### **Process**
+1. Transform and clean the data
+2. Verify and document the results
+
+##### **Analyze**
+1. Identify patterns and draw conclusion
+2. Make predictions and recommendation
+3. Make data driven decisions
+
+##### **Share**
+1. Create effective visualizations
+2. Create story of data
+3. Share insights to stakeholders
+
+##### **Act**
+1. Provide recommendations based on insights
+2. Solve problems 
+3. Create something new
+
+
+### Scenario 
+We will analyze the data and understand how casual riders and annual members use 
+Cyclistic bike differently and from these insights we will design a new marketing strategy to convert casual riders into annual members.
+
+### 1.Ask
+We will be asking question with SMART (Specific, Measurable, Action-oriented, Relevant, Time-bound) methodology.
+
+##### **Stakeholder's expectation**
+* Design marketing strategies aimed at converting casual riders into annual members
+
+##### **Deliverables**
+* Insight on how annual members and casual riders use cyclistic bikes differently.
+* Provide effective visuals and relevant data to support insights.
+* Use insights to give three recommendations to convert casual riders to member riders.
+
+##### **Questions to ask**
+* What's the problem we are trying to solve? ->
+We are trying to find how do annual members and casual riders use the bikes differently.
+* Who are my Stakeholders? ->
+Director of Marketting, Cyclistic executive team
+
+### 2.Prepare
+
+##### **About the data**
+The data is available at this [link](https://divvy-tripdata.s3.amazonaws.com/index.html) and is made available by Motivate International Inc. There total 12 datasets from April, 2020 to March, 2021. Each dataset captures the details of every ride logged by the customers of Cyclistic.
+
+##### **Tools to be used**
+We will be using SQL and R to organize and identify biases in the data.
+
+##### **Loading libraries**
+```{r}
+library(tidyverse)
+library(janitor)
+```
+
+
+
+
+
+
